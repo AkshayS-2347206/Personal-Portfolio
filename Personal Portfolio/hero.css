@@ -1,0 +1,143 @@
+
+*{
+    font-family: 'poppins', sans-serif;
+}
+body, html{
+    height: 100%;
+}
+
+.btn-group{
+    padding-right: 300px;
+}
+
+
+.navbar{
+    height: 70px;
+    background: yellowgreen;
+    
+}
+.navbar-brand{
+    padding-left: 300px;
+    font-size: 20px;
+    font-weight:900;
+}
+.nav-item{
+    margin-left: 10px;
+    font-weight: 400;
+    margin-top: 2px;
+    transition: .3s;
+}
+
+.nav-item a:hover{
+    color: white;
+    border-bottom: 2px solid black;
+}
+
+.hero-image{
+    margin-top: 30px;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("Images/hero-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text{
+    color: #fff;
+    text-align: center;
+}
+
+.hero-text h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.hero-text p{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    
+}
+.hero-btn{
+    font-size: 17px;
+    text-decoration: none;
+    color: #fff;
+    background: rgb(207, 68, 68);
+    padding: 10px 30px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 8px;
+    transition: .5s;
+}
+
+.hero-btn:hover{
+    color: rgb(207, 68, 68);
+    background: white;
+}
+
+.modal{
+    
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content{
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close{
+    color: #aaaaaa;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover, .close:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.boom{
+    background: #888;
+    margin-top: 30px;
+    padding: 40px;
+    text-align: center;
+}
+
+footer p{
+    
+    font-size: 18px;
+    color: #bbb;
+
+}
+footer a{
+    padding-top: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #bbb;
+}
+
+footer {
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #24262b;
+    color: white;
+  }

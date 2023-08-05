@@ -1,0 +1,65 @@
+*{
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    background: white;
+}
+
+
+.btn-group{
+    padding-right: 300px;
+}
+
+
+.navbar{
+    height: 70px;
+    background: yellowgreen;
+    
+}
+.navbar-brand{
+    padding-left: 300px;
+    font-size: 20px;
+    font-weight:900;
+}
+.nav-item{
+    margin-left: 10px;
+    font-weight: 400;
+    margin-top: 2px;
+    transition: .3s;
+}
+
+.nav-item a:hover{
+    color: white;
+    border-bottom: 2px solid black;
+}
+
+.projects{
+    text-align: center;
+    padding: 10px;
+}
+
+.box{
+    margin: 20px 30px;
+    border: 1px solid purple;
+    padding: 20px;
+}
+
+footer p{
+    font-size: 18px;
+    color: #bbb;
+
+}
+footer a{
+    padding-top: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #bbb;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #24262b;
+    color: white;
+  }
