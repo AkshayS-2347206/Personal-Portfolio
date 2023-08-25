@@ -1,0 +1,24 @@
+body{
+    background: lightgreen;
+}
+
+.containeer{
+    border: 1px solid black;
+    width: 1170px;
+    margin:auto;
+    margin-top: 40px;
+    
+}
+.containeer .items{
+    background-color: lightcyan;
+    text-align: center;
+    padding: 40px;
+    font-size: 20px;
+}
+li a{
+    text-decoration: none;
+}
+li a:hover{
+    background: black;
+    color: white;
+}
