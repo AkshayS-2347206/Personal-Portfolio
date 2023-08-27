@@ -1,0 +1,6 @@
+table, th, td {
+    border-color: red;
+    font-size: large;
+    border-radius: 5px;
+    text-align: center;
+  }
