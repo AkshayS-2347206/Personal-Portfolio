@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="amazon.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<products>
+    <product>
+        <id>1</id>
+        <name>Mobile Phone</name>
+        <price>799.9</price>
+        <description>New Mobile Phone</description>
+    </product>
+
+    <product>
+        <id>2</id>
+        <name>EarPhones</name>
+        <price>39.99</price>
+        <description>New EarPhones</description>
+    </product>
+
+    <product>
+        <id>3</id>
+        <name>Laptop</name>
+        <price>499.99</price>
+        <description>New Laptop</description>
+    </product>
+
+    <product>
+        <id>4</id>
+        <name>Monitor</name>
+        <price>299.99</price>
+        <description>New Monitor</description>
+    </product>
+
+    <product>
+        <id>5</id>
+        <name>Speakers</name>
+        <price>99.99</price>
+        <description>Brand New Speakers</description>
+    </product>
+
+    <product>
+        <id>6</id>
+        <name>Smart Watches</name>
+        <price>19.99</price>
+        <description>New Smart Watch</description>
+    </product>
+</products>
