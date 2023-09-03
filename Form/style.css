@@ -1,0 +1,16 @@
+form{
+    background: linear-gradient(lightblue, lightpink);
+    width: 1070px;
+    margin: auto;
+    padding: 40px;
+    margin-top: 50px;
+}
+form .btn{
+    margin-top: 20px;
+}
+form h1{
+    text-align: center;
+}
+form .form-check ,.form-control-check{
+    margin-top: 20px;
+}
