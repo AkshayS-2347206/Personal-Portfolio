@@ -1,0 +1,50 @@
+body, h1 {
+    margin: 0;
+    padding: 0;
+    background: lightcoral;
+}
+h1 {
+    text-align: center;
+    background-color: yellowgreen;
+    color: black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#searchInput, #sortSelect {
+    width: 98%;
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+}
+#productList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 0 20px;
+}
+.product {
+    flex: 0 0 calc(33.33% - 20px);
+    border: 1px solid rgb(232, 75, 13);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: lightgoldenrodyellow;
+}
+.product img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+.product h2 {
+    font-size: 18px;
+    margin: 0;
+}
+.product p {
+    margin: 10px 0;
+}
+.product p:last-child {
+    font-weight: bold;
+    color: #007bff;
+}
